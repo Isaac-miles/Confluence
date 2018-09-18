@@ -1,0 +1,57 @@
+.Navbar{
+float:right;
+position: relative;
+}
+
+  .Navbar  ul{padding:0;
+    margin:0;
+    }
+    
+    li{
+        list-style:none;
+    float:left;
+    width:150px;
+    background:transparent;
+    height:30px;
+    text-align:center;
+    line-height:25px;
+    border-right:solid 1px white;
+    margin-top:15px
+    }
+    li a{
+        color:white;
+        text-decoration:none;
+        display:inline-block;
+    font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+       font-weight:lighter;
+       text-transform: capitalize
+    }
+    .Navbar li ul li{
+        border-top:solid 1px white;
+        margin-top: 0;
+    background: linear-gradient(#ad5389,#3c1053);
+
+    }
+    .Navbar ul li ul{
+        margin-top:0;
+        visibility:hidden
+    }
+    .Navbar li:hover{
+        color: white;
+        background: rgb(143, 79, 143);
+    }
+    .Navbar ul li:hover ul{
+        visibility:visible
+    }
+
+
+    
+  
+
+
+    @media(max-width:768px){
+        .Navbar ul{
+            visibility: hidden;
+        }
+    }

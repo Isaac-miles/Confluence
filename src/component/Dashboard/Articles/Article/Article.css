@@ -1,0 +1,29 @@
+.Article{
+        width: 250px;
+        height: 200px;
+        padding: 5px;
+        text-align: center;
+        border: 1px solid #eee;
+        box-shadow: 0 2px 3px #ccc;
+        margin: 20px 10px;
+        box-sizing: border-box;
+        cursor: pointer; background-color: purple;
+        color: white;
+
+    }
+    
+    .Article:hover,
+    .Article:active {
+        background-color: white;
+        color: black
+    }
+    
+    .Author {
+        margin: 16px 0;
+        color: #ccc;
+    }
+
+    .Info{
+        
+        text-transform: capitalize;
+    }

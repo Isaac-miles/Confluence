@@ -1,0 +1,74 @@
+.Board{
+    width:100%;
+    height:800px;
+  background-size:cover;
+  background-position: center;
+  position: relative;
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../../assets/images/log.jpg');
+}
+.Boardboard{
+    width:200px;
+    height: 750px;
+    background:linear-gradient(purple,white);
+    float: left;
+    box-sizing: border-box;
+    box-shadow:1px 1px  pink;
+    border-radius: 7px;
+    margin: 10px 10px;
+    
+}
+.Boardboard ul{
+padding: 0;
+margin: 0
+}
+.Boardboard li{
+   list-style: none;
+   width: 90%;
+    font-size: 10px;
+    margin: 20px 15px;
+
+}
+.Boardboard li:hover{
+    color: white;
+    background: rgb(139, 46, 139);
+}
+.Boardboard li a{
+    border-bottom: 1px solid pink;
+    font-size: 20px;
+    font-family: monotype corsiva;
+    text-align: center;
+    text-decoration: none
+}
+.Boardboard1{
+    width:1120px;
+    height: 750px;
+    background:linear-gradient(purple,white);
+    box-sizing: border-box;
+    box-shadow:1px 1px  pink;
+    border-radius: 7px;
+    margin: 10px 10px;
+    position: absolute;
+    left: 210px
+    
+}
+.Boardboard1 span{
+    width: 500px;
+    height: 56px;
+    background-color: rgb(143, 79, 143);    
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+text-shadow: 2px 3px purple;
+border-radius: 7px
+}
+.h{
+text-align: center;
+color: white;
+font-family: times
+  
+}
